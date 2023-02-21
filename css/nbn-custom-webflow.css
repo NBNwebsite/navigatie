@@ -1,0 +1,702 @@
+#NAV-Contribute .w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+#NAV-Contribute .wg-dropdown-2 {
+    z-index: 999999;
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    font-weight: 700;
+}
+
+#NAV-Contribute .container {
+    display: block;
+    max-width: 1350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#NAV-Contribute .container.small-top-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1500px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+#NAV-Contribute .container.nav-dd-contents-container {
+    max-width: 1500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#NAV-Contribute .number-items {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 16px;
+    text-align: center;
+}
+
+#NAV-Contribute .dropdown-nav {
+    position: static;
+}
+
+#NAV-Contribute .dropdown-nav:focus {
+    outline-color: #032571;
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+#NAV-Contribute .dropdown-nav:focus-visible {
+    outline-color: #032571;
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+#NAV-Contribute .dropdown-nav[data-wf-focus-visible] {
+    outline-color: #032571;
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+#NAV-Contribute .cta-image {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+#NAV-Contribute .wg-dropdown-2-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2rem;
+    padding: 0rem 1rem;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    color: #000;
+    text-decoration: none;
+}
+
+#NAV-Contribute .wg-dropdown-2-link:hover {
+    color: #ff6640;
+}
+
+#NAV-Contribute .wg-dropdown-2-link.settings-link {
+    color: #fff;
+}
+
+#NAV-Contribute .number-in-bag-container {
+    position: absolute;
+    left: auto;
+    top: 5px;
+    right: 3px;
+    bottom: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 7px;
+    background-color: #ed4f4f;
+    color: #000;
+}
+
+#NAV-Contribute .flex-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#NAV-Contribute .nav-icon-link {
+    position: relative;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#NAV-Contribute .nav-icon-link:hover {
+    background-color: #f0fcff;
+}
+
+#NAV-Contribute .wg-dd-2-list {
+    left: 0%;
+    top: -0.5rem;
+    right: auto;
+    bottom: auto;
+    overflow: hidden;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #032571;
+    box-shadow: 0 3px 11px -1px rgba(64, 73, 255, 0.11);
+    -webkit-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    color: #fff;
+}
+
+#NAV-Contribute .wg-dd-2-list.w--open {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #032571;
+    text-align: center;
+}
+
+#NAV-Contribute .menu-cta-field {
+    background-color: #f0fcff;
+    text-align: center;
+}
+
+#NAV-Contribute .settings-link {
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#NAV-Contribute .settings-link:hover {
+    text-decoration: underline;
+}
+
+#NAV-Contribute .settings-link.w--current {
+    font-weight: 900;
+}
+
+#NAV-Contribute .wg-element-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#NAV-Contribute .collection-list-6 {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+#NAV-Contribute .dropdown-list {
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+}
+
+#NAV-Contribute .dropdown-list.w--open {
+    z-index: 98;
+    margin-top: -20px;
+    padding-top: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.04);
+}
+
+#NAV-Contribute .menu-cta-linkblock {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    text-decoration: none;
+}
+
+#NAV-Contribute .nav-icons-etc {
+    position: relative;
+    z-index: 99999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+}
+
+#NAV-Contribute .brand {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+#NAV-Contribute .initials-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #032571;
+    color: #fff;
+    text-decoration: none;
+}
+
+#NAV-Contribute .nav-logo {
+    position: relative;
+    z-index: 99999;
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#NAV-Contribute .dark-bg {
+    background-color: #032571;
+}
+
+#NAV-Contribute .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: #fff;
+    font-family: Mulish, sans-serif;
+    color: #032571;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+#NAV-Contribute .nav-link-block {
+    text-decoration: none;
+}
+
+#NAV-Contribute .grid {
+    display: -ms-grid;
+    display: grid;
+    overflow: visible;
+    width: 100%;
+    max-width: 100%;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#NAV-Contribute .lang-icon {
+    width: 13px;
+    height: 13px;
+}
+
+#NAV-Contribute .button {
+    padding: 6px 16px;
+    border-radius: 2px;
+    background-color: #0e7cbd;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+}
+
+#NAV-Contribute .button:hover {
+    background-color: #032571;
+}
+
+#NAV-Contribute .button.nav-cta {
+    margin-left: 8px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+#NAV-Contribute .nav-menu {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: transparent;
+}
+
+#NAV-Contribute .wg-dd-2-togle {
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    padding: 0px 15px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+}
+
+#NAV-Contribute .wg-dd-2-togle:hover {
+    color: #ff6640;
+}
+
+#NAV-Contribute .nav-dropdown-li {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+#NAV-Contribute .nav-dropdown-li:hover {
+    background-color: #f0fcff;
+}
+
+#NAV-Contribute .nav-dropdown-li:focus {
+    outline-color: #032571;
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+#NAV-Contribute .nav-dropdown-li.w--current {
+    color: #0e7cbd;
+    font-weight: 800;
+}
+
+#NAV-Contribute .icon {
+    position: static;
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+#NAV-Contribute .nav-link {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #032571;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+}
+
+#NAV-Contribute .nav-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1500px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+#NAV-Contribute .text-block {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 991px) {
+    #NAV-Contribute .menu-link-dropdowns {
+        display: none !important;
+    }
+    #NAV-Contribute .menu-button {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+    #NAV-Contribute .menu-button.w--open {
+        /*background-color: purple;*/
+    }
+    #NAV-Contribute .container {
+        overflow: hidden;
+    }
+    #NAV-Contribute .container.nav-dd-contents-container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #NAV-Contribute .lottie-animation {
+        width: 30px;
+        height: 30px;
+    }
+    #NAV-Contribute .dropdown-nav {
+        display: block;
+    }
+    #NAV-Contribute .nav-menu {
+        width: 100%;
+        display: none;
+        padding-bottom: 32px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    #NAV-Contribute .nav-link {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #NAV-Contribute .settings-link {
+        padding: 12px;
+    }
+    #NAV-Contribute .collection-list-6 {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    #NAV-Contribute .grid {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #NAV-Contribute .wg-dropdown-2 {
+        z-index: 99999999;
+    }
+    #NAV-Contribute .wg-dd-2-list {
+        background-color: #032571;
+    }
+    #NAV-Contribute .settings-link {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        line-height: 100%;
+    }
+    #NAV-Contribute .wg-element-wrapper.sw7 {
+        background-color: #032571;
+        color: #fff;
+    }
+    #NAV-Contribute .nav-icons-etc {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+        flex: 0 auto;
+    }
+    #NAV-Contribute .grid {
+        grid-row-gap: 32px;
+    }
+    #NAV-Contribute .lang-icon {
+        display: none;
+    }
+}
+
+#NAV-Contribute #w-node-_7bb3e417-1a39-23b3-a871-f3f7bb3ec2fc-68a2989b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+}
+
+#NAV-Contribute #w-node-_0c3c9979-9c1a-2469-4c46-af7a1d6d1f01-717984ec {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+}
+
+#NAV-Contribute #w-node-d055b693-d91a-cdeb-9804-2bb1dd80df16-717984ec {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+}
+
+#NAV-Contribute #w-node-_7bb3e417-1a39-23b3-a871-f3f7bb3ec31c-68a2989b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+}
+
+#NAV-Contribute #w-node-_47eaedf6-7e4e-18a3-8c59-66b7d44d61ea-717984ec {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+}
+
+#NAV-Contribute #w-node-_56986154-2a36-aa90-aae6-1d28e1c67092-717984ec {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+}
+
+#NAV-Contribute #initials-container {
+    display: flex !important;
+}
+
+#NAV-Contribute .initials-text {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    align-self: center;
+}
