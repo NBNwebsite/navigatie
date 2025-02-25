@@ -21,6 +21,7 @@
     let cookie_my_requests = getCookie("ac_request_to_approve");
     let cookie_request_approvals = getCookie("ac_approve_requests");
     let cookie_notifications = getCookie("notification_count");
+    let cookie_order_history = getCookie("ac_view_order_history");
     const initialText = document.getElementById('initials-text');
     const profileInfo = document.getElementById('profile-info');
     const loginButton = document.getElementById('log-in-btn');
@@ -30,6 +31,7 @@
     const itemsInBag = document.getElementById('itemsInBag');
     const notificationsProfile = document.getElementById('notificationsProfile-container');
     const notificationsInDropdown = document.getElementById('notificationsDropdown');
+    const oderHistory = document.getElementById('oderHistory');
 
 
 
@@ -70,4 +72,10 @@
         requestApprovals.style.display = "none";
     } else {
         requestApprovals.style.display = "block";
+    }
+
+    if (cookie_order_history == "" || cookie_order_history == " " || cookie_order_history == null) {
+        oderHistory.style.display = "none";
+    } else {
+        oderHistory.style.display = "block";
     }
